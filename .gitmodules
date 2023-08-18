@@ -6,7 +6,7 @@
   branch = "release-v0"
   path = "lib/prb-test"
   url = "https://github.com/PaulRBerg/prb-test"
-[submodule "lib/seaport-core"]
+[submodule "seaport-core"]
   branch = "main"
   path = "seaport-core"
   url = "https://github.com/ProjectOpenSea/seaport-core"
