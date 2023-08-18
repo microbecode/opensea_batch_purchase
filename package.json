@@ -25,6 +25,8 @@
     "lint": "pnpm lint:sol && pnpm prettier:check",
     "lint:sol": "forge fmt --check && pnpm solhint {script,src,test}/**/*.sol",
     "prettier:check": "prettier --check **/*.{json,md,yml} --ignore-path=.prettierignore",
-    "prettier:write": "prettier --write **/*.{json,md,yml} --ignore-path=.prettierignore"
+    "prettier:write": "prettier --write **/*.{json,md,yml} --ignore-path=.prettierignore",
+    "fork": "anvil -f https://eth-mainnet.g.alchemy.com/v2/$API_KEY_ALCHEMY --fork-block-number 17232999",
+    "buy": "forge script script/BuyOne.s.sol --broadcast --fork-url http://localhost:8545"
   }
 }
