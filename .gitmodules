@@ -8,5 +8,5 @@
   url = "https://github.com/PaulRBerg/prb-test"
 [submodule "lib/seaport-core"]
   branch = "main"
-  path = "lib/seaport-core"
+  path = "seaport-core"
   url = "https://github.com/ProjectOpenSea/seaport-core"
