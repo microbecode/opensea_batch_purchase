@@ -8,4 +8,4 @@
   url = "https://github.com/PaulRBerg/prb-test"
 [submodule "lib/seaportcore"]
 	path = lib/seaportcore
-	url = "https://github.com/ProjectOpenSea/seaport-core.git"
+	url = https://github.com/lib/seaportcore
