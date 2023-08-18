@@ -1,3 +1,3 @@
 @prb/test/=lib/prb-test/src/
 forge-std/=lib/forge-std/src/
-seaportcore=lib/seaportcore/src
+seaportcore/=lib/seaportcore/src/

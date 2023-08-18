@@ -6,6 +6,6 @@
   branch = "release-v0"
   path = "lib/prb-test"
   url = "https://github.com/PaulRBerg/prb-test"
-[submodule "lib/seaportcore"]
-	path = lib/seaportcore
+[submodule "lib/seaport-core"]
+	path = lib/seaport-core
 	url = https://github.com/lib/seaportcore
