@@ -70,7 +70,7 @@ contract BuyOne is BaseScript {
         ConsiderationItem memory consideration = ConsiderationItem(
             ItemType.ERC721, // ItemType
             nft, // token
-            0, // identifierOrCriteria
+            tokenId, // identifierOrCriteria
             1, // startAmount
             1, // endAmount
             payable(addressZero) // recipient
@@ -91,6 +91,5 @@ contract BuyOne is BaseScript {
             ZERO_SALT, // conduit
             currentOwnerCounter // counter
         );
-        Consideration cons = Consideration(payable(seaport));
     }
 }
